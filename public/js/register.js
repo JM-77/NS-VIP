@@ -24,6 +24,3 @@ function register() {//8
         );//4
     }//5
 }//8
-function login() {//9
-    location.href = '/public/login.html';
-}
