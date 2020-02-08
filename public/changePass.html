@@ -5,47 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel=stylesheet type="text/css" href="./stylesheets/style.css">
-    <title>ChangePassword</title>
+    <link rel=stylesheet type="text/css" href="./css/style.css">
+    <title>Index</title>
 </head>
 
 <body>
-    <header class="header">
-        <div>
-            <a id="login" class="headerright" href="/public/login.html">登入</a>
-            <a id="logout" class="headerright" href="#" onclick="logout()">登出</a>
-            <a id="changePass" class="headerright" href="/public/changePass.html">修改密碼</a>
-            <p id="username" class="headerright">UserName：</p>
-        </div>
+    <header>
+       
+            <a id="login" class="header" href="/public/login.html">登入</a>
+            <a id="logout" class="header" href="#" onclick="logout()">登出</a>
+            <a id="changePass" class="header" href="/public/changePass.html">修改密碼</a>
+            <p id="username" class="header" >UserName：</p>
+       
     </header>
-    <div class="w40leftblank"></div>
-    <div class="form-style w20div">
+    <div class="div"></div>
+    <div class="form">
         <h1>修改密碼</h1>
-        <div class="w100div">
-            <button class="commonbtn" style="float: right;" onclick="location.href='/public/index.html'">回首頁
-            </button>
-        </div>
+      <div class="button">
+            <button style="float: right;" class="commonbtn" onclick="location.href='/public/index.html'">回首頁
+            </button></div>
+    
         <fieldset>
             <legend>修改密碼</legend>
-            <label for="field1">
+            <label>
                 <span>舊密碼</span>
-                <input type="password" id="oldPass" class="input-field" />
+                <input type="password" id="oldPass" />
             </label>
-            <label for="field1">
+            <label>
                 <span>新密碼</span>
-                <input type="password" id="newPass" class="input-field" />
+                <input type="password" id="newPass"/>
             </label>
             <label>
                 <input type="submit" onclick="changePass()" value="確認" />
             </label>
-            <div id="errormsg" style="color:red"></div>
+
         </fieldset>
     </div>
 
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
-    <script type="text/javascript" src="./javascripts/header.js"></script>
-    <script type="text/javascript" src="./javascripts/changePass.js"></script>
+    <script type="text/javascript" src="./js/header.js"></script>
+    <script type="text/javascript" src="./js/changePass.js"></script>
 
 </body>
 

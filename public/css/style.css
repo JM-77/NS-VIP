@@ -1,0 +1,149 @@
+body {
+  padding: 0px;
+  margin: 0px;
+ 
+}
+
+header {
+  background: pink;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+.header {
+  float: right;
+  margin: 10px
+}
+
+
+
+
+.div {
+  width: 30%;
+height: 200px;
+float: left;
+margin-top: 100px
+}
+
+.form {
+  width: 40%;
+  float: left;
+  margin-top: 100px
+}
+
+
+.button{
+  float: right;
+width: 100%;
+}
+
+.commonbtn {
+  background: #EB3B88;
+  border: 1px solid #C94A81;
+  padding: 5px 15px 5px 15px;
+  color: #FFCBE2;
+  box-shadow: inset -1px -1px 3px #FF62A7;
+  -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+  -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+  border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-weight: bold;
+}
+
+
+
+fieldset {
+widows: 100%;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+margin: 0px 0px 10px 0px;
+border: 1px solid #FFD2D2;
+padding: 20px;
+background: #FFF4F4;
+box-shadow: inset 0px 0px 15px #FFE5E5;
+-moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+fieldset legend {
+color: #FFA0C9;
+border-top: 1px solid #FFD2D2;
+border-left: 1px solid #FFD2D2;
+border-right: 1px solid #FFD2D2;
+border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+background: #FFF4F4;
+padding: 0px 8px 3px 8px;
+box-shadow: -0px -1px 2px #F1F1F1;
+-moz-box-shadow: -0px -1px 2px #F1F1F1;
+-webkit-box-shadow: -0px -1px 2px #F1F1F1;
+font-weight: normal;
+font-size: 12px;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+label>span {
+float: left;
+width: 70px;
+color: #F072A9;
+font-weight: bold;
+font-size: 13px;
+text-shadow: 1px 1px 1px #fff;
+}
+
+
+
+
+input[type=submit]{
+background: #EB3B88;
+border: 1px solid #C94A81;
+padding: 5px 15px 5px 15px;
+color: #FFCBE2;
+box-shadow: inset -1px -1px 3px #FF62A7;
+-moz-box-shadow: inset -1px -1px 3px #FF62A7;
+-webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+border-radius: 3px;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+font-weight: bold;
+}
+
+
+input[type=text],
+input[type=password],
+textarea {
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border: 1px solid #FFC2DC;
+outline: none;
+color: #F072A9;
+padding: 5px 20px 5px 20px;
+box-shadow: inset 1px 1px 4px #FFD5E7;
+-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+background: #FFEFF6;
+width: 80%;
+}
+
+
+
+
